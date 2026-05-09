@@ -1,6 +1,5 @@
-from . import system
-from . import core
-from . import gui
+from . import sound
+from . import file
+from . import process
 
-__all__ = ["system", "core", "gui"]
-
+__all__ = ["file", "sound", "process"]
